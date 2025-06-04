@@ -1,0 +1,274 @@
+{
+    "products":[
+        {
+            "id":0,
+            "img":"https://github.com/user-attachments/assets/91154145-519d-4a3e-8111-eb319b8875a6",
+            "title":"옷장 01",
+            "price":344900,
+            "choice":true,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":1,
+            "img":"https://github.com/user-attachments/assets/68bce35a-01e0-4cc7-a4d6-e637465beff1",
+            "title":"옷장 02",
+            "price":229900,
+            "choice":true,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":2,
+            "img":"https://github.com/user-attachments/assets/42b94030-f293-4780-9324-23e7e969a12d",
+            "title":"옷장 03",
+            "price":139900,
+            "choice":false,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":3,
+            "img":"https://github.com/user-attachments/assets/3c72c173-dc41-414e-90d2-cf495f92d470",
+            "title":"옷장 04",
+            "price":209900,
+            "choice":false,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":4,
+            "img":"https://github.com/user-attachments/assets/ae48787f-2ef4-4fe6-8c9b-d1df41a520f8",
+            "title":"옷장 05",
+            "price":129900,
+            "choice":true,
+            "new":false,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":5,
+            "img":"https://github.com/user-attachments/assets/915beb15-da4f-4eaa-b57e-bc4f30b961d1",
+            "title":"옷장 06",
+            "price":139900,
+            "choice":false,
+            "new":false,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":6,
+            "img":"https://github.com/user-attachments/assets/34a4e547-68e9-4790-a3ee-88ad327ccf5a",
+            "title":"옷장 07",
+            "price":164900,
+            "choice":true,
+            "new":false,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":7,
+            "img":"https://github.com/user-attachments/assets/1d430458-c6f8-499d-be4d-d12461ff8136",
+            "title":"옷장 08",
+            "price":199900,
+            "choice":false,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":8,
+            "img":"https://github.com/user-attachments/assets/3c532a95-7620-4d73-9944-262aea2256f4",
+            "title":"옷장 09",
+            "price":144900,
+            "choice":true,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":9,
+            "img":"https://github.com/user-attachments/assets/af5ea744-9814-47e0-83a5-303ced4a97d8",
+            "title":"침대 01",
+            "price":156900,
+            "choice":true,
+            "new":true,
+            "size":["SINGLE","DOUBLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":10,
+            "img":"https://github.com/user-attachments/assets/b3f7639a-9305-41f6-981c-d4118778c3a5",
+            "title":"침대 02",
+            "price":209900,
+            "choice":false,
+            "new":false,
+            "size":["SINGLE","DOUBLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":11,
+            "img":"https://github.com/user-attachments/assets/8c47835d-ae4e-42c2-bec0-95421fea2a90",
+            "title":"침대 03",
+            "price":255900,
+            "choice":false,
+            "new":true,
+            "size":["SINGLE","DOUBLE"]
+
+        },
+        {
+            "id":12,
+            "img":"(https://github.com/user-attachments/assets/587650aa-c53e-43cf-9fe9-a09543e4dadf",
+            "title":"침대 04",
+            "price":204900,
+            "choice":true,
+            "new":false,
+            "size":["SINGLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":13,
+            "img":"https://github.com/user-attachments/assets/ba3f2341-e43b-4833-9843-9e90b97b75d0",
+            "title":"침대 05",
+            "price":129900,
+            "choice":true,
+            "new":false,
+            "size":["SINGLE","DOUBLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":14,
+            "img":"https://github.com/user-attachments/assets/4eb22ed6-b9ad-4d22-8de3-15b33a2f0708",
+            "title":"침대 06",
+            "price":109900,
+            "choice":true,
+            "new":true,
+            "size":["SINGLE","DOUBLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":15,
+            "img":"https://github.com/user-attachments/assets/77302daa-5545-4a73-875a-9ce0427cefd7",
+            "title":"침대 07",
+            "price":69900,
+            "choice":true,
+            "new":false,
+            "size":["SINGLE","DOUBLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":16,
+            "img":"https://github.com/user-attachments/assets/dfca2432-602a-49a9-8934-2344fb36243c",
+            "title":"침대 08",
+            "price":79900,
+            "choice":false,
+            "new":true,
+            "size":["DOUBLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":17,
+            "img":"https://github.com/user-attachments/assets/aadd78c4-10a1-47d4-bb7d-006afc65f0b1",
+            "title":"침대 09",
+            "price":104900,
+            "choice":true,
+            "new":false,
+            "size":["SINGLE","DOUBLE","SUPERSINGLE"]
+
+        },
+        {
+            "id":18,
+            "img":"https://github.com/user-attachments/assets/d52e4d40-51a6-4ce1-9bef-d9108c2bfdf2",
+            "title":"테이블 01",
+            "price":119900,
+            "choice":true,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":19,
+            "img":"https://github.com/user-attachments/assets/887c05df-8b53-4b8f-a138-d0bde6dbd651",
+            "title":"테이블 02",
+            "price":169900,
+            "choice":true,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":20,
+            "img":"https://github.com/user-attachments/assets/dc9ede9e-f9ed-41c7-a172-978d345198ca",
+            "title":"테이블 03",
+            "price":129900,
+            "choice":true,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":21,
+            "img":"https://github.com/user-attachments/assets/dbc522b4-68c5-49cf-93d3-44be7501454c",
+            "title":"테이블 04",
+            "price":99900,
+            "choice":false,
+            "new":false,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":22,
+            "img":"https://github.com/user-attachments/assets/f0af8a9c-812a-499e-8fb9-a468efe71795",
+            "title":"테이블 05",
+            "price":69900,
+            "choice":true,
+            "new":false,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":23,
+            "img":"https://github.com/user-attachments/assets/3630add8-ba3b-4100-8ffd-9a6361ad5b20",
+            "title":"테이블 06",
+            "price":89900,
+            "choice":false,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":24,
+            "img":"https://github.com/user-attachments/assets/19c69c88-6259-4ba0-adaf-14dc8e5c7044",
+            "title":"테이블 07",
+            "price":159900,
+            "choice":true,
+            "new":false,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":25,
+            "img":"https://github.com/user-attachments/assets/4691f42c-e9b1-4dd3-8bf5-747c93488b74",
+            "title":"테이블 08",
+            "price":129900,
+            "choice":false,
+            "new":true,
+            "size":["S","M","L"]
+
+        },
+        {
+            "id":26,
+            "img":"https://github.com/user-attachments/assets/216ea5a3-bf81-44c7-8005-fd2267d05964",
+            "title":"테이블 09",
+            "price":149000,
+            "choice":true,
+            "new":false,
+            "size":["S","M","L"]
+
+        }
+    ]
+}

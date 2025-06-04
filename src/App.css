@@ -1,0 +1,70 @@
+.top-bar {
+  height : 5vh;
+  padding : 15px;
+  display : flex;
+  justify-content : flex-end;
+  align-items: center;
+}
+
+.top-bar svg {
+  height: 5vh;
+}
+
+.middle-bar {
+  height : 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle-bar svg {
+  height : 3vh;
+}
+
+.img-box {
+  height : 3vh;
+  display: flex;
+  justify-content: center;
+}
+
+.img-box img {
+  height : 3vh;
+}
+
+.search-div {
+  position : absolute;
+  right : 10%;
+  display: flex;
+}
+
+
+.input-design {
+  border-width: 0 0 1px;
+  width : 15ch;
+}
+
+.input-design:focus {
+  outline : none;
+}
+
+.login-btn {
+  cursor : pointer;
+  font-weight: 600;
+}
+
+.login-page {
+  width : 50vw;
+  display: flex;
+  flex-direction: column;
+  gap : 10px;
+  margin: 0 auto;
+}
+
+.ul-design {
+  display : flex;
+  flex-direction: row;
+  gap : 20px;
+  list-style-type: none;
+  justify-content: center;
+  flex : 1;
+}
