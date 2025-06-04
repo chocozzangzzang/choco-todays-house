@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { productStore } from '../store/productStore';
 import { Button, FormControl, InputLabel, MenuItem, Select } from '@mui/material';
