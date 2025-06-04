@@ -71,5 +71,53 @@
 
 .products-page {
   display : grid;
-  grid-template-columns: repeat(1fr 4fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-card {
+  height : 300px;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  gap: 5px;
+}
+
+.card-top {
+  flex : 6
+}
+
+.card-bottom {
+  flex : 4
+}
+
+.detail-box {
+  display : flex;
+  flex-direction: row;
+}
+
+.detail-right {
+  display : flex;
+  flex-direction: column;
+}
+
+.detail-left {
+  flex : 7;
+  display : flex;
+  justify-content: center;
+}
+
+.detail-left img {
+  padding : 20px;
+}
+
+.detail-right {
+  flex : 3;
+  display: flex;
+  padding: 20px;
+  gap : 20px;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,17 +1,22 @@
 import React, { useState } from 'react'
+import { productStore } from '../store/productStore';
+import { useNavigate } from 'react-router-dom';
 
 const MiddleBar = () => {
 
     const menus = ['ALL', 'CLOSET', 'BED', 'DESK', 'RECOMMEND'];
     const [ searchQuery, setSearchQuery ] = useState("");
+    const { searchProducts } = productStore();
+    const navigate = useNavigate();
     const searchFurniture = () => {
-        console.log(searchQuery);
+        searchProducts(searchQuery);
         setSearchQuery("");
     }
     return (
         <div>
             <div className='img-box'>
-                <img src="https://ohstory.io/wp-content/uploads/2022/11/1_-Ohouse_mark_horizontal_black-1024x351.png"/>
+                <img onClick={() => navigate('/')} 
+                src="https://ohstory.io/wp-content/uploads/2022/11/1_-Ohouse_mark_horizontal_black-1024x351.png"/>
             </div>
             <div className='middle-bar'>
                 <ul className='ul-design'>

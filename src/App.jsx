@@ -4,6 +4,7 @@ import TopBar from './ui/TopBar'
 import MainPage from './components/MainPage'
 import LoginPage from './components/LoginPage'
 import MiddleBar from './ui/MiddleBar'
+import PrivateRoute from './route/PrivateRoute'
 
 // 1. TopBar : 로그인 버튼 -> 로그인 페이지 o
 // 1-1. TopBar는 로그인 되어있는 경우 로그아웃으로 변경 --> 로그아웃 클릭 시 로그아웃이 됨 o
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />}/>
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/product/:id" element={<PrivateRoute />} />
       </Routes>
     </div>
   )

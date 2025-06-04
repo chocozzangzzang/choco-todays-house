@@ -1,26 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import ProductCard from './ProductCard';
-import axios from 'axios';
+import { productStore } from '../store/productStore';
 
 const MainPage = () => {
-    const [ products, setProducts ] = useState([]);
-
-    const getProducts = async() => {
-        let url = "https://my-json-server.typicode.com/chocozzangzzang/choco-todays-house/products";
-        let response = await axios.get(url);
-        let data = response.data;
-        console.log(data);
-        setProducts(data);
-    }
+    const { fetchProducts, productList, queryString, searchedProduct } = productStore();
 
     useEffect(() => {
-        getProducts();
+        fetchProducts();
     }, [])
 
     return (
         <div className='products-page'>
             {
-                products?.map( (product) => <ProductCard product={product}/> )
+                (queryString.trim() ? searchedProduct : productList)?.map( (product) => <ProductCard key={product.id} product={product}/> )
             }
         </div>
     )
