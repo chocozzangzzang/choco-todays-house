@@ -68,3 +68,8 @@
   justify-content: center;
   flex : 1;
 }
+
+.products-page {
+  display : grid;
+  grid-template-columns: repeat(1fr 4fr);
+}
